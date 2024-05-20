@@ -1,4 +1,4 @@
-#  test
+#  test abc
 resource "aws_instance" "ins_nihao333" {
   ami = "ami-01e444924a2233b07"
   instance_type = "t2.micro"
