@@ -4,7 +4,7 @@ on:
    branches:
    - main
    paths:
-   - 'top/**'
+   - './'
 
 env:
  AWS_ACCESS_KEY_ID: ${{ secrets.ACCESS_KEY }}
