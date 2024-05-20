@@ -1,1 +1,19 @@
 
+terraform {
+ required_providers {
+   aws = {
+     source = "hashicorp/aws"
+   }
+ }
+
+ backend "s3" {
+  bucket         = "dunhuang-terraform-bucket"
+  key            = "dunhuang/terraform/s3/bucket05/terraform.tfstate"
+  region         = "eu-central-1"
+  dynamodb_table = "my-terraform-lock-table5"
+ }
+}
+
+provider "aws" {
+ region = "eu-central-1"
+}
