@@ -19,7 +19,7 @@ jobs:
      run:
        shell: bash
        # We keep Terraform files in the terraform directory.
-       working-directory: ./terraform-multi/
+       working-directory: ./
 
    steps:
      - name: Checkout the repository to the runner
@@ -34,5 +34,5 @@ jobs:
        id: init
        run: terraform init -backend-config="bucket=$BUCKET_TF_STATE"
        
-     - name: Terraform Apply
-       run: terraform apply -auto-approve -input=false
+#     - name: Terraform Apply
+#       run: terraform apply -auto-approve -input=false
