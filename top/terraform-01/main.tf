@@ -1,4 +1,4 @@
-# Comment
+# Comment test
 resource "aws_instance" "ins_abcd" {
   ami = "ami-01e444924a2233b07"
   instance_type = "t2.micro"
