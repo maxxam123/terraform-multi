@@ -3,8 +3,8 @@ on:
  push:
    branches:
    - main
-   paths:
-   - ./terraform-multi/**
+#   paths:
+#   - ./terraform-multi/**
 
 env:
  AWS_ACCESS_KEY_ID: ${{ secrets.ACCESS_KEY }}
