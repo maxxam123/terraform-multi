@@ -4,6 +4,6 @@ resource "aws_instance" "ins_111" {
   instance_type = "t2.micro"
   subnet_id = "subnet-002308d00bad9957e"
   tags = {
-    Name = "Ins 111"
+    Name = "Ins 112"
   }
 }
