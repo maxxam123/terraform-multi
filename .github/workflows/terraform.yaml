@@ -4,7 +4,7 @@ on:
    branches:
    - main
    paths:
-   - 'top2/**'
+   - 'top/**'
 
 env:
  AWS_ACCESS_KEY_ID: ${{ secrets.ACCESS_KEY }}
@@ -19,7 +19,7 @@ jobs:
      run:
        shell: bash
        # We keep Terraform files in the terraform directory.
-       working-directory: ./
+       working-directory: top/terraform-01/
 
    steps:
      - name: Checkout the repository to the runner
