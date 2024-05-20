@@ -8,4 +8,5 @@ terraform {
     key            = "dunhuang/terraform/s3/bucket02/terraform.tfstate"
     region         = "eu-central-1"
     dynamodb_table = "my-terraform-lock-table1"
+  }
 }
