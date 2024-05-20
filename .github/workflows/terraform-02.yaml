@@ -18,7 +18,7 @@ jobs:
      run:
        shell: bash
        # We keep Terraform files in the terraform directory.
-       working-directory: top2/terraform-02/
+       working-directory: top2/
 
    steps:
      - name: Checkout the repository to the runner
