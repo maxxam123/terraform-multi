@@ -15,7 +15,7 @@ provider "aws" {
  region = "eu-central-1"
 }
 
-resource "aws_instance" "ins_2" {
+resource "aws_instance" "ins_22" {
   ami = "ami-01e444924a2233b07"
   instance_type = "t2.micro"
   subnet_id = "subnet-002308d00bad9957e"
