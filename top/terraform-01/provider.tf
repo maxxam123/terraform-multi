@@ -7,6 +7,6 @@ terraform {
     bucket         = "dunhuang-gansu-terraform-state"
     key            = "dunhuang/terraform/s3/bucket03/terraform.tfstate"
     region         = "eu-central-1"
-    dynamodb_table = "terraform-state2"
+    dynamodb_table = "terraform-state"
   }
 }
