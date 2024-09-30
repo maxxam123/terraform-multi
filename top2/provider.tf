@@ -4,7 +4,7 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket         = "dunhuang-terraform-bucket"
+    bucket         = "dunhuang-gansu-terraform-state"
     key            = "dunhuang/terraform/s3/bucket03/terraform.tfstate"
     region         = "eu-central-1"
     dynamodb_table = "my-terraform-lock-table3"
