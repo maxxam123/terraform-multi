@@ -3,7 +3,7 @@ on:
    branches:
    - main
    paths:
-   - 'top22/**'
+   - 'top2/**'
 
 env:
  AWS_ACCESS_KEY_ID: ${{ secrets.ACCESS_KEY }}
