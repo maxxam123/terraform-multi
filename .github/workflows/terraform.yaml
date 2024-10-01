@@ -35,10 +35,9 @@ jobs:
        run: |
          terraform init -backend-config="bucket=dunhuang-gansu-terraform-state"
          ls -la
-         terraform plan
          
-#     - name: Terraform Plan
-#       run: terraform plan -lock=false
+     - name: Terraform Plan
+       run: terraform plan -lock=false
        
-#     - name: Terraform Apply
-#       run: terraform apply -auto-approve -input=false -lock=false
+     - name: Terraform Apply
+       run: terraform apply -auto-approve -input=false -lock=false
