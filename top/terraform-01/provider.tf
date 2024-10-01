@@ -3,6 +3,7 @@ provider "aws" {
 }
 
 
+
 terraform {
   backend "s3" {
     bucket         = "dunhuang-gansu-terraform-state"
